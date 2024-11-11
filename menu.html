@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee Pricing</title>
+    <style>
+        /* Basic Styling */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        /* Header Section */
+        header {
+            background: linear-gradient(to right, #0a0a0a, #312f2d);
+            padding: 20px;
+            text-align: left;
+            color: white;
+        }
+        header h1 {
+            margin: 0;
+        }
+        /* Price Section */
+        #price {
+            margin: 20px;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            background: linear-gradient(to right, #dd0606, #feb47b);
+            color: white;
+        }
+        /* Pricing Container */
+        .pricing-container {
+            display: flex;
+            gap: 20px;
+            justify-content: space-between;
+        }
+        /* Individual Pricing Plan */
+        .pricing-plan {
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 15px;
+            width: 30%;
+            text-align: center;
+            background-color: #fff;
+            color: #333;
+        }
+        .pricing-plan img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin-bottom: 15px;
+        }
+        .pricing-plan h3 {
+            margin: 10px 0;
+            color: #dd0606;
+        }
+        .pricing-plan .offer-price {
+            color: #feb47b;
+            font-size: 1.2em;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>OPENING OFFER</h1>
+    </header>
+    
+    <section id="price">
+        <h2>Price</h2>
+        <h3>Coffee</h3>
+        <div class="pricing-container">
+            <!-- First Coffee Plan -->
+            <div class="pricing-plan">
+                <img src="https://example.com/latte.jpg" alt="Latte Image">
+                <h3>Latte</h3>
+                <p>Regular Price: $10</p>
+                <p class="offer-price">Offer: $3</p>
+            </div>
+            
+            <!-- Second Coffee Plan -->
+            <div class="pricing-plan">
+                <img src="https://example.com/cappuccino.jpg" alt="Cappuccino Image">
+                <h3>Cappuccino</h3>
+                <p>Regular Price: $12</p>
+                <p class="offer-price">Offer: $5</p>
+            </div>
+            
+            <!-- Third Coffee Plan -->
+            <div class="pricing-plan">
+                <img src="https://example.com/espresso.jpg" alt="Espresso Image">
+                <h3>Espresso</h3>
+                <p>Regular Price: $8</p>
+                <p class="offer-price">Offer: $4</p>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
